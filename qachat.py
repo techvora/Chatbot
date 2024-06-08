@@ -6,7 +6,7 @@ import google.generativeai as genai
 load_dotenv()
 
 # Configure the Generative AI client with the API key
-genai.configure(api_key="AIzaSyCmEM615fERV3DTJQn8Bgfd1yvTmWrrTSA")
+genai.configure(api_key="AIzaSyCmEM615fERV***JQn8Bgfd1yvTmWrrTSA")
 
 model = genai.GenerativeModel("gemini-pro")
 chat = model.start_chat(history=[])
